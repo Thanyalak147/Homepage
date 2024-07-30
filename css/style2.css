@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    flex: 1;
+}
+
+h1 {
+    color: #222;
+}
+
+.content {
+    padding: 20px;
+    background: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.content img {
+    width: 50%;
+    /* กำหนดความกว้างของรูปภาพเป็น 50% ของ container */
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section h2 {
+    color: #222;
+}
+
+
+
+.hero-img {
+    text-align: center;
+}
+
+.hero-img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-img {
+    text-align: center;
+}
+
+
+.footer-top {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #222;
+
+}
